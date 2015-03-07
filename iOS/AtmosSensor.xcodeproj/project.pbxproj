@@ -21,6 +21,10 @@
 		4206A71819BDE99A004399DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4206A6FA19BDE99A004399DE /* UIKit.framework */; };
 		4206A72019BDE99A004399DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4206A71E19BDE99A004399DE /* InfoPlist.strings */; };
 		4206A72219BDE99A004399DE /* BLESerialSampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4206A72119BDE99A004399DE /* BLESerialSampleTests.m */; };
+		42B0B2411AAAC4CB002EC067 /* MapViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B2401AAAC4CB002EC067 /* MapViewController.m */; };
+		42B0B2441AAAC4D7002EC067 /* SolidViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B2431AAAC4D7002EC067 /* SolidViewController.m */; };
+		42B0B2471AAAC4E7002EC067 /* FloorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B2461AAAC4E7002EC067 /* FloorViewController.m */; };
+		42B0B24A1AAAC4F1002EC067 /* FloorDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 42B0B2491AAAC4F1002EC067 /* FloorDetailViewController.m */; };
 		42F5F55F19BE08360008BE06 /* BLESerialManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F5F55B19BE08360008BE06 /* BLESerialManager.m */; };
 		42F5F56019BE08360008BE06 /* BLEBaseClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 42F5F55E19BE08360008BE06 /* BLEBaseClass.m */; };
 /* End PBXBuildFile section */
@@ -55,6 +59,14 @@
 		4206A71D19BDE99A004399DE /* AtmosSensorTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtmosSensorTests-Info.plist"; sourceTree = "<group>"; };
 		4206A71F19BDE99A004399DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4206A72119BDE99A004399DE /* BLESerialSampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BLESerialSampleTests.m; sourceTree = "<group>"; };
+		42B0B23F1AAAC4CB002EC067 /* MapViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MapViewController.h; sourceTree = "<group>"; };
+		42B0B2401AAAC4CB002EC067 /* MapViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MapViewController.m; sourceTree = "<group>"; };
+		42B0B2421AAAC4D7002EC067 /* SolidViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolidViewController.h; sourceTree = "<group>"; };
+		42B0B2431AAAC4D7002EC067 /* SolidViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolidViewController.m; sourceTree = "<group>"; };
+		42B0B2451AAAC4E7002EC067 /* FloorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorViewController.h; sourceTree = "<group>"; };
+		42B0B2461AAAC4E7002EC067 /* FloorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorViewController.m; sourceTree = "<group>"; };
+		42B0B2481AAAC4F1002EC067 /* FloorDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FloorDetailViewController.h; sourceTree = "<group>"; };
+		42B0B2491AAAC4F1002EC067 /* FloorDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FloorDetailViewController.m; sourceTree = "<group>"; };
 		42F5F55B19BE08360008BE06 /* BLESerialManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BLESerialManager.m; path = BLESerialSample/BLESerialManager.m; sourceTree = "<group>"; };
 		42F5F55C19BE08360008BE06 /* BLESerialManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLESerialManager.h; path = BLESerialSample/BLESerialManager.h; sourceTree = "<group>"; };
 		42F5F55D19BE08360008BE06 /* BLEBaseClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BLEBaseClass.h; path = BLESerialSample/BLEBaseClass.h; sourceTree = "<group>"; };
@@ -126,6 +138,14 @@
 				4206A70C19BDE99A004399DE /* ViewController.m */,
 				4206A70E19BDE99A004399DE /* Images.xcassets */,
 				4206A6FD19BDE99A004399DE /* Supporting Files */,
+				42B0B23F1AAAC4CB002EC067 /* MapViewController.h */,
+				42B0B2401AAAC4CB002EC067 /* MapViewController.m */,
+				42B0B2421AAAC4D7002EC067 /* SolidViewController.h */,
+				42B0B2431AAAC4D7002EC067 /* SolidViewController.m */,
+				42B0B2451AAAC4E7002EC067 /* FloorViewController.h */,
+				42B0B2461AAAC4E7002EC067 /* FloorViewController.m */,
+				42B0B2481AAAC4F1002EC067 /* FloorDetailViewController.h */,
+				42B0B2491AAAC4F1002EC067 /* FloorDetailViewController.m */,
 			);
 			name = AtmosSensor;
 			path = BLESerialSample;
@@ -269,9 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42B0B2441AAAC4D7002EC067 /* SolidViewController.m in Sources */,
+				42B0B24A1AAAC4F1002EC067 /* FloorDetailViewController.m in Sources */,
+				42B0B2471AAAC4E7002EC067 /* FloorViewController.m in Sources */,
 				4206A70D19BDE99A004399DE /* ViewController.m in Sources */,
 				4206A70719BDE99A004399DE /* AppDelegate.m in Sources */,
 				42F5F56019BE08360008BE06 /* BLEBaseClass.m in Sources */,
+				42B0B2411AAAC4CB002EC067 /* MapViewController.m in Sources */,
 				4206A70319BDE99A004399DE /* main.m in Sources */,
 				42F5F55F19BE08360008BE06 /* BLESerialManager.m in Sources */,
 			);
